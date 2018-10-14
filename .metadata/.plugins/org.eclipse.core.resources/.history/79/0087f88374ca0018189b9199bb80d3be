@@ -1,0 +1,19 @@
+package com.up.javaProgs;
+
+public class Threads_eg1 {
+
+	public static void main(String args[]) {
+		System.out.println("From main thread");
+		
+		Thread anotherThread = new AnotherThread();
+		anotherThread.start();
+		new Thread() {
+			public void run() {
+				System.out.println("From anonymous clas");
+			}
+		}
+		System.out.println("Again from main thread");
+		
+	}
+	
+}

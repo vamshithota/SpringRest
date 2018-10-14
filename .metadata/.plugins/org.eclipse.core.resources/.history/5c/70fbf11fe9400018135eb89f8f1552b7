@@ -1,0 +1,76 @@
+package com.timbuchalka.springdemo.controller.test;
+
+import javax.websocket.server.PathParam;
+
+import org.slf4j.Logger;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@RequestMapping(value="/requestMappingAndParamDemo")
+@Controller
+public class RequestMappingAndParamDemoController {
+	
+	private static Logger LOGGER = LoggerFactory.getLogger(RequestMappingAndParamDemoController.class);
+	
+	//@RequestMapping(value= {"/", "/home", "/somevalue"})
+	@RequestMapping(value="/home")
+	public String home() {
+		return "requestMappingAndParamHome";
+	}
+
+	@RequestMapping("/reqparam")
+	public String requestmappingtest1(@RequestParam("orgname") String orgname, Model model) {
+		model.addAttribute("orgname",orgname);
+		model.addAttribute("testserial", "test1");
+		return "requestMappingAndParamResults";
+		
+	}
+	
+	@RequestMapping(value ="/getmethodeg", method = RequestMethod.GET)
+	public String usingGetMethod(@RequestParam("orgname") String orgname, Model model) {
+		model.addAttribute("orgname", orgname);
+		model.addAttribute("testserial", "test2");
+		return "requestMappingAndParamResults";
+	}
+	
+	@RequestMapping(value="*", method = RequestMethod.GET)
+	public String fallbackMethod() {
+		
+		return "fallback";
+	}
+
+	@RequestMapping(value= "/defaultval")
+	public String defaultValueEg(@RequestParam(value = "orgname", defaultValue= "Anonmyous Organization") String orgname,Model model) {
+		model.addAttribute("orgname", orgname);
+		model.addAttribute("testserial","test3");
+		return "requestMappingAndParamResults";
+	}
+	
+	@RequestMapping("/noname")
+	public String reqParamsWithoutName(@RequestParam String orgname, Model model) {
+		model.addAttribute("orgname", orgname);
+		model.addAttribute("testserial","test4");
+		return "requestMappingAndParamResults";
+	}
+	//test 6
+	//same base uri with different parameters 
+	@RequestMapping(value ="/samename", params= "orgname")
+	public String sameMethodName(@RequestParam String orgname, Model model) {
+		model.addAttribute("orgname",orgname );
+		model.addAttribute("testserial", "test6-sub process");
+		return "requestMappingAndParamResults2";
+	}
+	
+	@RequestMapping(value = "/samename",params="empcount" )
+	public String sameMethodName2(@RequestParam String empcount, Model model) {
+		model.addAttribute("empcount",empcount);
+		model.addAttribute("testserial","test7-sub process")
+		
+	}
+}
+

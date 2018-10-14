@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\vamsh\Downloads\vamshiWorkspace-oxygen\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2010291376.index
+1777976951.index
+3697943683.index
+866705554.index
+2077839917.index
+2281089382.index
+3743675309.index

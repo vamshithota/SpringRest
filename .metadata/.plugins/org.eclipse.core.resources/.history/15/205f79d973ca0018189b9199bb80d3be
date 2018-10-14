@@ -1,0 +1,12 @@
+package com.up.javaProgs;
+
+public class Threads_eg1 extends Thread{
+
+	public static void main(String args[]) {
+		System.out.println("From main thread");
+		
+		Thread anotherThread = new AnotherThread();
+		
+	}
+	
+}

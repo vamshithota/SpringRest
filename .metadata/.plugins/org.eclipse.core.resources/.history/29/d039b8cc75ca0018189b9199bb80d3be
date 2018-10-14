@@ -1,0 +1,9 @@
+package com.up.javaProgs;
+
+public class AnotherThread extends Thread{
+	@Override
+	public void run() {
+		System.out.println(ANSI_BLUE + "From another Thread Class!!!!!");
+	}
+	
+}

@@ -1,0 +1,20 @@
+package com.up.javaProgs;
+import static com.up.javaProgs.ThreadColors.ANSI_PURPLE;
+import static com.up.javaProgs.ThreadColors.ANSI_GREEN;
+public class Threads_eg1 {
+
+	public static void main(String args[]) {
+		System.out.println(ANSI_GREEN + "From main thread");
+		
+		Thread anotherThread = new AnotherThread();
+		anotherThread.start();
+		new Thread() {
+			public void run() {
+				System.out.println(ANSI_PURPLE + "From anonymous class");
+			}
+		}.start();
+		System.out.println("Again from main thread");
+		
+	}
+	
+}

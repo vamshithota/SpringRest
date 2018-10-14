@@ -1,0 +1,5 @@
+package com.springRest.controllers;
+
+public class MyRestController {
+
+}

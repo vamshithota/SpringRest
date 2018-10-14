@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.springRest.models.configs.Spring&apos; to &apos;SpringMvcDispcatcherServletIntializer&apos;&#x0D;&#x0A;- Original project: &apos;Spring-RestApp&apos;&#x0D;&#x0A;- Original element: &apos;com.springRest.models.configs.Spring&apos;&#x0D;&#x0A;- Renamed element: &apos;com.springRest.models.configs.SpringMvcDispcatcherServletIntializer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Spring&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.springRest.models.configs{Spring.java[Spring" matchStrategy="1" name="SpringMvcDispcatcherServletIntializer" qualified="false" references="true" similarDeclarations="false" stamp="1539489743927" textual="false" version="1.0"/>
+</session>

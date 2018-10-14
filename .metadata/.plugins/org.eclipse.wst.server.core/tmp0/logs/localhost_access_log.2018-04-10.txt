@@ -1,0 +1,5 @@
+127.0.0.1 - - [10/Apr/2018:21:29:45 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [10/Apr/2018:21:29:57 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [10/Apr/2018:21:29:57 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [10/Apr/2018:21:29:57 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [10/Apr/2018:21:30:50 -0400] "GET /spring-model-attributes/orgcontroller/ HTTP/1.1" 200 861

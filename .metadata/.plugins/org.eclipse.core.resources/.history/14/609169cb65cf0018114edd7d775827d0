@@ -1,0 +1,5 @@
+package com.springRest.models.configs;
+
+public class SpringRestAppConfig {
+
+}

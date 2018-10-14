@@ -1,0 +1,10 @@
+package com.up.javaProgs;
+import static com.up.javaProgs.ThreadColors.ANSI_BLUE;
+
+public class AnotherThread extends Thread{
+	@Override
+	public void run() {
+		System.out.println(ANSI_BLUE + "From another Thread Class!!!!!");
+	}
+	
+}

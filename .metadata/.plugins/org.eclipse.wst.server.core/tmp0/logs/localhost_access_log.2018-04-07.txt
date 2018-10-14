@@ -1,0 +1,15 @@
+127.0.0.1 - - [07/Apr/2018:19:34:50 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:19:35:05 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 200 858
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:19:35:06 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [07/Apr/2018:21:47:33 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:21:47:35 -0400] "GET /spring-model-attributes/WEB-INF/classes/com/javaArchitect/test/TestMain.java HTTP/1.1" 404 992
+127.0.0.1 - - [07/Apr/2018:22:25:58 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:22:26:25 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 4296
+127.0.0.1 - - [07/Apr/2018:22:27:28 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:22:27:32 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 9588
+127.0.0.1 - - [07/Apr/2018:22:29:15 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:22:29:21 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 9588
+127.0.0.1 - - [07/Apr/2018:22:36:57 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:22:37:04 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 9588
+127.0.0.1 - - [07/Apr/2018:22:46:29 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:22:46:35 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 25468

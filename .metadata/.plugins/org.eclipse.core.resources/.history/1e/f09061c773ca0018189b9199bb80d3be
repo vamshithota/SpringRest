@@ -1,0 +1,9 @@
+package com.up.javaProgs;
+
+public class AnotherThread extends Thread{
+	@Override
+	public void run() {
+		
+	}
+	
+}

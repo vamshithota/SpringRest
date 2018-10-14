@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.up.javaProgs.Switc_Challange&apos; to &apos;Switch_Challange&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava-App&apos;&#x0D;&#x0A;- Original element: &apos;com.up.javaProgs.Switc_Challange&apos;&#x0D;&#x0A;- Renamed element: &apos;com.up.javaProgs.Switch_Challange&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Switc_Challange&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.up.javaProgs{Switc_Challange.java[Switc_Challange" matchStrategy="1" name="Switch_Challange" qualified="false" references="true" similarDeclarations="false" stamp="1537150250737" textual="false" version="1.0"/>
+</session>

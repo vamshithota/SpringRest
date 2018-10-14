@@ -1,0 +1,11 @@
+127.0.0.1 - - [06/Apr/2018:05:35:27 -0400] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [06/Apr/2018:05:35:39 -0400] "GET /spring-modelattributes-eg/getsorgslist HTTP/1.1" 404 1070
+127.0.0.1 - - [06/Apr/2018:05:35:39 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [06/Apr/2018:05:35:39 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [06/Apr/2018:05:36:11 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 500 55189
+127.0.0.1 - - [06/Apr/2018:05:50:14 -0400] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [06/Apr/2018:05:50:32 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 200 858
+127.0.0.1 - - [06/Apr/2018:06:10:20 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [06/Apr/2018:06:10:30 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 200 858
+127.0.0.1 - - [06/Apr/2018:06:11:36 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [06/Apr/2018:06:11:46 -0400] "GET /spring-model-attributes/orgslist HTTP/1.1" 200 858

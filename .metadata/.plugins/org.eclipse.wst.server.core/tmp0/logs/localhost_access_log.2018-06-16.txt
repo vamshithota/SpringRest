@@ -1,0 +1,8 @@
+127.0.0.1 - - [16/Jun/2018:19:47:38 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Jun/2018:19:48:15 -0400] "GET /spring-security-demo/springsecurity/home HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [16/Jun/2018:19:48:15 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [16/Jun/2018:19:48:15 -0400] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [16/Jun/2018:19:50:36 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Jun/2018:19:50:44 -0400] "GET /spring-security-demo/springsecurity/home HTTP/1.1" 404 1078
+127.0.0.1 - - [16/Jun/2018:19:51:25 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Jun/2018:19:51:31 -0400] "GET /spring-security-demo/springsecurity/home HTTP/1.1" 200 288
